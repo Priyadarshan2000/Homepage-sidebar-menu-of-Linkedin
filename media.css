@@ -1,0 +1,170 @@
+@media (max-width:1350px) {
+
+    nav section {
+        width: 80%;
+    }
+
+}
+
+@media (max-width:1150px) {
+
+    nav section {
+        width: 90%;
+    }
+
+}
+
+@media (max-width:1050px) {
+
+    nav section {
+        width: 95%;
+    }
+
+    .selected-nav {
+        border: none;
+    }
+
+}
+
+@media (max-width:650px) {
+    .post-subtext {
+        font-size: 12px;
+    }
+
+    .post .post-head {
+        grid-template-columns: 1fr 5fr 4fr;
+    }
+
+    .post-follow {
+        font-size: 13px;
+    }
+
+    .feed .post {
+        padding: 13px;
+    }
+
+    .post-btns {
+        font-size: 3.5vw;
+        padding: 1vw;
+    }
+
+    footer section {
+        width: 100%;
+    }
+
+    .new-p-btns {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:1050px) {
+
+    .nav-logo,
+    .nav-home,
+    .nav-net,
+    .nav-notif,
+    .nav-jobs,
+    .nav-me,
+    .premium-nav,
+    .nav-work {
+
+        display: none;
+    }
+
+    nav{
+        background-color: rgb(46, 148, 173);
+    }
+
+    .filtered{
+        filter: brightness(0.2);
+    }
+
+    nav section {
+        width: 600px;
+        grid-template-columns: 0.1fr 8fr 1fr;
+    }
+
+    .hidden-ul,
+    .nav-me2{
+        display: flex;
+      
+    }
+
+    
+    .sidebar {
+        display: block;
+    }
+
+    .nav-me2{
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+       
+        margin: auto;
+    } 
+
+    .nav-me2 i {
+        font-size: 25px;
+    }
+    
+    .nav-msg{
+    transition: all 0.3s;
+    }
+    
+
+    .nav-me2:hover,
+    .nav-msg:hover{
+        background-color: rgb(8, 44, 54);
+        cursor: pointer;
+    }
+
+    .nav-search input {
+        width: 100%;
+    }
+
+    .nav-search {
+        width: 90%;
+    }
+
+    footer {
+        display: flex;
+    }
+
+
+}
+
+@media(max-width:400px) {
+
+    nav section {
+        grid-template-columns: 0.1fr 4fr 1fr;
+    }
+
+    .nav-search {
+        margin: 0;
+    }
+
+    .nav-search input {
+        width: 85%;
+    }
+}
+
+@media (max-width:450px) {
+    footer ul a {
+        font-size: 4vw;
+        margin: 0 5px;
+    }
+
+    .new-p-btns {
+        
+    }
+}
+
+@media (max-width:360px) {
+
+
+    .new-p-btns {
+        
+    }
+}
