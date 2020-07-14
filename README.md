@@ -1,4 +1,4 @@
-# Sidebar-menu-of-Linkedin Demo(Mobile View).
+# Sidebar-menu-of-Linkedin Demo(Mobile View)
 ![20200714_164910 1](https://user-images.githubusercontent.com/62868878/87419949-04b5c400-c5f2-11ea-9837-cbabadfb2479.gif)
 
 # Linkedin Home page Desktop view
